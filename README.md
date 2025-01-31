@@ -1,4 +1,4 @@
-# SQL Agent using LangChain
+# Multi-Agent-Simulation using LangChain and Langgraph
 
 Follow these steps to set up and run the project:
 
@@ -16,7 +16,7 @@ Make sure you have the following installed:
 2. Navigate to the project directory.
 3. Run the following command to create a virtual environment:
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    ```
 
 ### 2. Activate the Virtual Environment
@@ -39,22 +39,9 @@ Install the required dependencies for the project by running:
 pip install -r requirements.txt
 ```
 
-### 4. Run the Database Setup Script
-
-Run the script to set up the database:
-```bash
-python db_setup.py
-```
-
-### 5. Run the Main Agent Script
+### 4. Run the Main Agent Script
 
 Start the application by running:
 ```bash
-python agent.py
+python simulation.py
 ```
-
-## Notes
-- Make sure the database setup script (`db_setup.py`) is successful before running the agent script (`agent.py`).
-- Keep the virtual environment activated while working on the project.
-- If you encounter any issues, double-check the prerequisites and ensure all dependencies are installed.
-
